@@ -1,0 +1,18 @@
+This is a sample integration of the Oculus Mobile SDK
+with Leap Motion.
+
+On the Gear VR, you'll have to disconnect the USB
+headset add-on in order to connect the Leap Motion
+peripheral.
+
+As this removes access to the headset gyro, we are
+using a special build of VRlib that uses the phone
+gyro.
+
+Note that in order to export an apk that does not
+crash, you will have to obtain the proper Oculus
+signature (oculussig_*) file and place it under
+Assets/Plugins/Android/assets
+
+For questions, post on the Leap Motion forums or
+contact developers@leapmotion.com
